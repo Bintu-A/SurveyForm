@@ -1,0 +1,145 @@
+form{
+    display:block;
+    width:80%;
+    background-color:#1b1b32;
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 600px;
+    min-width: 300px;
+    padding: 30px;
+    opacity:0.8;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body{
+    background-image:url(https://storage.googleapis.com/fplswordpressblog/2022/07/focus-groups.jpg);
+  background-size:cover;
+  font-family:sans-serif;
+  color:white;
+  }
+
+  label{
+    display:block;
+    margin: 20px 0;
+  }
+  input{
+    display:block;
+  }
+  h1, #description{
+    text-align:center;
+    opacity:0.8;
+    font-family:sans-serif;
+     }
+  h1{
+    font-size:40px;
+    margin-top:00px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: normal;
+    margin-bottom: 2px;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    }
+  #description{
+    font-size:18px;
+    font-style:italic;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 5px;
+    
+  }
+  input,textarea,select{
+    width:100%;
+    margin-top:10px;
+    min-height:3em;
+    border-radius:6px;
+    
+  
+  }
+  input,textarea{
+    background-color:white;
+    border:2px solid white;
+  }
+  .listed{
+    width:unset;
+    margin: 0 0.5em 0 0;
+    vertical-align:middle;
+    display:inline-block;
+    min-height: 5px;
+    transform: scale(1.5); 
+   padding-right: 3px;
+   box-shadow: none;
+  }
+  .listed:focus{
+    box-shadow: none;
+  }
+  
+  input[type=checkbox] {
+    vertical-align: middle;
+    display: inline-block;
+    width: unset;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-right:10px;
+   padding-bottom: 0.1em;
+   min-height: 5px;
+   transform: scale(1.5); 
+   padding-right: 3px;
+   border-radius:0px;
+   box-shadow: none;
+}
+input[type=checkbox]:focus{
+  box-shadow: none;
+}
+    
+
+p{
+  padding-bottom: 0px;
+  margin-bottom: 2px;
+}
+
+  
+
+  textarea{
+    border-radius:0;
+    min-height:7em;
+
+  }
+
+  input[type="submit"]{
+    background-color:rgb(14, 97, 14);
+    border-radius:0px;
+    text-align:center;
+    font-size:20px;
+    color:white;
+    border:1px solid rgb(14, 97, 14);
+    margin-bottom:30px;
+    margin-top:20px;
+    display:block;
+    min-height:2em;
+  min-width:300px;
+  }
+  input::placeholder, textarea::placeholder {
+    font: 16px sans-serif;
+}
+textarea::placeholder{
+  padding-top: 5px;
+}
+
+  span{
+    font-size:12px;
+    }
+    #dropdown{
+      font:16px sans-serif;
+      margin-top: 5px;
+      background: white; color: rgb(19, 16, 11);
+    }
+    #dropdown:focus ,input:focus{
+      outline: none;
+      border: 2px solid rgb(29, 29, 204);
+      box-shadow: 1px 1px 1px 1px rgb(43, 43, 221);
+    }
