@@ -121,7 +121,7 @@ p{
     margin-top:20px;
     display:block;
     min-height:2em;
-  min-width:300px;
+  min-width:150px;
   }
   input::placeholder, textarea::placeholder {
     font: 16px sans-serif;
